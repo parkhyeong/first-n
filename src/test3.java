@@ -97,7 +97,7 @@ public class test3 extends JFrame{
 	}
 	
 	public void an(){
-		l.setText("¤¾¤·");
+		l.setText("dfdfd");	
 	}
 	
 	public static void main(String[] args) {
