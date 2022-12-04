@@ -20,16 +20,16 @@ public class test3 extends JFrame{
 		Container c = getContentPane();
 		c.setLayout(null);
  
-		JButton send = new JButton("¡¶√‚");
+		JButton send = new JButton("Ï†úÏ∂ú");
 
 		l.setText("<html>" + "z" + "<br>" + "aaa" + "<br>" + "bb" + "<br>" + "cc" + "</html>");
 		c.add(l);
-		l.setBounds(100,-20,450,200);					//πÆ¡¶
-		l.setFont(new Font("∆˘∆Æ", Font.BOLD, 20));
+		l.setBounds(100,-20,450,200);					//Î¨∏Ï†ú
+		l.setFont(new Font("Ìè∞Ìä∏", Font.BOLD, 20));
 		c.add(send);									
-		send.setBounds(250,200,100,50);					//πˆ∆∞
+		send.setBounds(250,200,100,50);					//Î≤ÑÌäº
 		c.add(answer);
-		answer.setBounds(100,150,200,25);				//¥‰∂ı
+		answer.setBounds(100,150,200,25);				//ÎãµÎûÄ
 		
 		
 		
@@ -38,7 +38,7 @@ public class test3 extends JFrame{
 				num=(random.nextInt(4))+1;
 				if(e.getSource() == send) {
 					if(num == 1) {
-						if(answer.getText().equals("¡§¥‰1")) {
+						if(answer.getText().equals("Ï†ïÎãµ1")) {
 							an();
 							count++;
 						}
@@ -49,8 +49,8 @@ public class test3 extends JFrame{
 						
 					}
 					else if(num == 2) {
-							if(answer.getText().equals("¡§¥‰2")) {
-								l.setText("§æ§∑2");
+							if(answer.getText().equals("Ï†ïÎãµ2")) {
+								l.setText("„Öé„Öá2");
 								
 								count++;
 							}
@@ -59,8 +59,8 @@ public class test3 extends JFrame{
 							
 						}
 					else if(num == 3) {
-							if(answer.getText().equals("¡§¥‰3")) {
-								l.setText("§æ§∑3");
+							if(answer.getText().equals("Ï†ïÎãµ3")) {
+								l.setText("„Öé„Öá3");
 								count++;
 							}
 							else {System.out.println("c");}
@@ -68,8 +68,8 @@ public class test3 extends JFrame{
 							
 						}
 					else if(num == 4) {
-							if(answer.getText().equals("¡§¥‰4")) {
-								l.setText("§æ§∑4");
+							if(answer.getText().equals("Ï†ïÎãµ4")) {
+								l.setText("„Öé„Öá4");
 								count++;
 							}
 							else {System.out.println("d");}
@@ -78,7 +78,7 @@ public class test3 extends JFrame{
 						}
 					
 					else if(num == 5) {
-							if(answer.getText().equals("¡§¥‰5")) {
+							if(answer.getText().equals("Ï†ïÎãµ5")) {
 								count++;
 							}
 							else {System.out.println("e");}
@@ -97,7 +97,7 @@ public class test3 extends JFrame{
 	}
 	
 	public void an(){
-		l.setText("dfdfd");	
+		l.setText("„Öé„Öá");	
 	}
 	
 	public static void main(String[] args) {
